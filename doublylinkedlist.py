@@ -41,3 +41,6 @@ class Linkedlist:
     
     def prepend(self, data):
         frist_node = self.head
+
+        if frist_node is None:
+            return
